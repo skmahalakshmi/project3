@@ -1,0 +1,148 @@
+/*  */
+.parent{
+  width: 100%;
+  background-color: #BDC3C7;
+  display: flex;
+  /* justify-content: space-around; */
+}
+table>tr>td{
+  padding:1%;
+}
+a{
+  word-wrap: break-word;
+}
+.child1{
+  background-color: #F8C471;
+  width:40%;
+  text-align: center;
+  margin:1%;
+}
+  .child2{
+    background-color: #F8C471;
+    width:60%;
+    margin:1%;
+  }
+img{
+  width:60%;
+  height:35%;
+  border-radius: 25px;
+   border: 2px solid #73AD21;
+}
+h2{
+  color: #5D6D7E  ;
+}
+h1{
+  color: #EC7063;
+
+}
+
+
+@media only screen and (max-width:480px){
+*{
+  font-size:20px;
+}
+
+ .parent{
+
+     width: 100%;
+     background-color: #BDC3C7;
+     display: flex;
+     flex-direction: column;
+
+   }
+   .child1{
+     background-color: #F8C471;
+     text-align: center;
+     width:90%;
+     margin:2% auto;
+     padding:2%;
+     border-radius: 20px;
+     /* height: 20%; */
+   }
+     .child2{
+       background-color: #F8C471;
+       width:90%;
+       margin:2% auto;
+       padding:2%;
+       border-radius: 20px;
+
+       /* padding-left: 15px; */
+     }
+   img{
+     width:60%;
+     height:35%;
+     border-radius: 25px;
+      border: 2px solid #73AD21;
+   }
+   h2{
+     color: #5D6D7E  ;
+   }
+   h1{
+     color: #EC7063;
+
+   }
+
+   .table-responsive{
+     overflow-x:scroll;
+     width:90%;
+     margin:1% auto;
+   }
+ }
+ @media only screen and (min-width:481px) and (max-width:769px){
+ *{
+   font-size:20px;
+ }
+
+  .parent{
+
+      width: 100%;
+      background-color: #BDC3C7;
+      display: flex;
+      flex-direction: column;
+
+    }
+    .child1{
+      background-color: #808080;
+      text-align: center;
+      width:90%;
+      margin:2% auto;
+      padding:2%;
+      border-radius: 20px;
+
+      /* height: 20%; */
+    }
+      .child2{
+        background-color: #F8C471;
+        width:90%;
+        margin:2% auto;
+        padding:2%;
+        border-radius: 20px;
+
+        /* padding-left: 15px; */
+      }
+    img{
+      width:60%;
+      height:35%;
+      border-radius: 25px;
+       border: 2px solid #73AD21;
+    }
+    h2{
+      color: #5D6D7E  ;
+    }
+    h1{
+      color: #EC7063;
+
+    }
+
+    .table-responsive{
+      overflow-x:scroll;
+      width:90%;
+      margin:1% auto;
+    }
+    .sub2{
+      display: flex;
+      flex-direction: row;
+      justify-content: around;
+
+    }
+  }

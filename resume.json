@@ -1,0 +1,50 @@
+{
+  "profile":{
+      
+      "img":"image.png",
+      "name":"maha lakshmi",
+      "des":"trainer cum developer",
+      "org":"apssdc"
+
+
+
+  },
+  "career":{
+    "info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
+  },
+  "education":[
+    {
+      "degree":"b.tech(informtion technology)",
+      "institution":"lbrce",
+      "ypo":"2018"
+    },
+    {
+      "degree":"intermediate",
+      "institution":"srichaitanya jr college",
+      "ypo":"2014"
+    },
+    {
+      "degree":"s.s.c",
+      "institution":"st.joseph's english medium high school",
+      "ypo":"2012"
+    }
+  ],
+  "skills":[
+    {
+      "title":"platforms",
+      "content":"windows,linux"
+
+    },
+    {
+      "tilte":"programmimg languages",
+      "content":"c,java,html,css,java script"
+    },
+    {
+      "tilte":"database",
+      "content":"mysql,mongodb"
+    }
+
+  ],
+  "languages":"telugu,english"
+
+  }
